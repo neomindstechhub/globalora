@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep shared marketing chrome in `src/components/site-shell.tsx` and page content in file-based routes, so every public page remains independently shareable and searchable.
+- Store public audit requests through the browser client into the RLS-protected `leads` table; never expose lead records to anonymous visitors.
